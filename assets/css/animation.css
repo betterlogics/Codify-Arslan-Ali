@@ -1,0 +1,210 @@
+body {
+  background-color: black;
+}
+
+/* welcome section  */
+.welcome {
+  font-size: 32px;
+  text-align: center;
+  margin-top: 34px;
+  color: white;
+}
+
+.move-up {
+
+  justify-content: center;
+
+}
+
+.img1 {
+  margin-top: 40%;
+
+}
+
+.three-mob {
+  position: relative;
+  top: -100px;
+  bottom: 0;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.three-mob img.iphone-left {
+  position: absolute;
+  top: 25px;
+  left: 25%;
+  width: 270px;
+  transition-duration: 2s;
+
+}
+
+.three-mob img.iphone-right {
+  position: absolute;
+  top: 20px;
+  right: 21%;
+  width: 270px;
+  margin: 8px 37px 2px 11px;
+  transition-duration: 2s;
+}
+
+.move-up .iphone-mid {
+  text-align: center;
+  border-style: none;
+  width: 300px;
+  position: relative;
+  bottom: 0;
+  right: 0%;
+
+}
+
+/* .move-up:hover .iphone-right{
+
+transform: translate(200px,0px);
+
+}
+
+.move-up:hover .iphone-left {
+
+transform: translate(-200px,0px);
+} */
+/* text section scroll  */
+
+.main {
+  color: beige;
+
+}
+
+/* .main2{
+  color: beige;
+  text-align: center;
+} */
+.one {
+  float: right;
+  margin: -15px 220px 2px -1px
+}
+
+.two {
+  float: right;
+  margin: 179px -301px 2px -13px;
+}
+
+.three {
+  color: aliceblue;
+  margin: 115px 7px 2px 214px;
+}
+
+.four {
+  margin: 126px 2px 23px 214px;
+  color: aliceblue;
+}
+
+/* again phone layout */
+
+.iphone1 {
+  width: 20%;
+  margin: 69px 22px 2px 73px;
+  z-index: 1;
+}
+
+.iphone2 {
+  width: 19%;
+  margin: -60% 51px 45px 107px;
+  transition-duration: 3s;
+}
+
+
+.again:hover .iphone2 {
+
+  transform: translate(100px, 0px);
+}
+
+
+
+
+/* footer section  */
+footer {
+  text-align: center;
+  width: 100%;
+  height: 3pc;
+  color: aliceblue;
+}
+
+footer p {
+  margin: 48px 2px -9px 2px;
+  font-size: 16px;
+}
+
+/* layout section */
+
+.layout {
+
+  position: relative;
+  bottom: 66pc;
+
+}
+
+.iphone-down {
+  position: relative;
+  top: 253px;
+  bottom: 0;
+  left: 36%;
+
+  transition-duration: 3s;
+}
+
+.iphonelay {
+  position: relative;
+  top: 8px;
+  bottom: 0;
+  left: 36%;
+  transition-duration: 3s;
+  z-index: 1;
+}
+
+/* .layout:hover .iphone-down{
+  transform: translateY(-50px);
+} */
+/* rounded image */
+.round {
+  position: relative;
+  bottom: 34pc;
+  left: 234px;
+}
+
+.round2 {
+  position: relative;
+  bottom: 59pc;
+  left: -132px;
+
+}
+
+.man img {
+  border-radius: 50%;
+  position: relative;
+  top: 7px;
+  left: 525px;
+  width: 180px;
+
+}
+
+.rotate img {
+  position: relative;
+  top: 211px;
+  left: 500px;
+  width: 230px;
+  transition: 0.5;
+
+  animation: example 5s linear 2s infinite;
+  z-index: 1;
+}
+
+@keyframes example {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  0% {
+    transform: rotate(360deg);
+  }
+}
