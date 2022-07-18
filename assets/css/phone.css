@@ -1,0 +1,160 @@
+@media screen and (max-width:500px){
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    .logo img {
+        width: 29%;
+    }
+    .header-navbar ul {
+        display: none;
+    }
+    #large img {
+        width: 56%;
+        margin: auto;
+        display: block;
+    }
+    .idea {
+    width: 86%;  
+    padding: 3% 0% 0% 8%;
+}
+    /* this is tree phone section  */
+    .move-up {
+        
+      
+        
+    }
+    .three-mob {
+        position: relative;
+        top: 130px;
+    }
+    .move-up .iphone-mid {
+        width: 160px;
+        position: relative;
+        left: 7%;
+    }
+    .three-mob img.iphone-right {
+        position: absolute;
+        top: 20px;
+        right: 0%;
+        width: 132px;
+    }
+    .three-mob img.iphone-left {
+        position: absolute;
+        top: 33px;
+        left: 24%;
+        width: 128px;
+        
+    }
+    
+    /* nisha */
+    .nisha {
+        width: 304px;
+        margin-top: 11pc;
+    }
+    .nisha h1 {
+        text-align: center;
+        font-size: 35px;
+    }
+    .nisha p {
+        text-align: center;
+        color: rgb(180, 180, 180);
+        font-size: 13px;
+    }
+    .nisha h4 {
+        text-align: center;
+        font-size: 18px;
+        margin: 1px;
+    }
+    /* grid  */
+    #grid {
+        
+            display: grid;
+            grid-template-columns: 1fr;
+            text-align: center;
+            margin-right: 9px;
+      
+    }
+    
+        .codify {
+            display: grid;
+            grid-template-columns: 1fr;
+            text-align: center;
+            padding-top: 59px;
+        }
+    
+    .para1{
+        font-size: 15px;
+        padding: 2px 2px 2px 2px;
+    }
+    /* this section why  */
+    .why {
+        padding-left: 69px;
+        
+    }
+    .why h2 {
+        font-size: 33px;
+        margin: 0px;
+    }
+    
+/* this section for top phone animation */
+
+.layout {
+    position: relative;
+    bottom: 5pc;
+}
+.iphone-down {
+    position: relative;
+    top: 201px;
+    bottom: 0;
+    left: 1%;
+    width: 306px;
+}
+.iphonelay {
+    position: relative;
+    top: 8px;
+    bottom: 0;
+    left: 4%;
+    width: 294px;
+}
+
+/* this is two phone  */
+
+    .iphone2 {
+        width: 38%;
+    position: relative;
+    top: -54px;
+    right: 66px;
+}
+.iphone1 {
+    width: 39%;
+    z-index: -1;
+    position: relative;
+    right: 28px;
+
+}
+/* this section rotate  */
+.round {
+    display: grid;
+    
+}
+.rotate img {
+    position: relative;
+    top: 6px;
+    /* left: 89px; */
+    width: 142px;
+    animation: example 5s linear 2s infinite;
+    z-index: 1;
+}
+.man img {
+    border-radius: 50%;
+    position: relative;
+    top: -121px;
+    /* left: 182px; */
+    width: 112px;
+}
+.name {
+    margin: -102px -116px 2px 54px;
+}
+}
